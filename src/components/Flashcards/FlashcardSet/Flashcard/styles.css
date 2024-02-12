@@ -1,0 +1,27 @@
+
+
+.card {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back, .front{
+  transition: transform .5s;
+  outline: solid black 1px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  border-radius: .25em;
+  align-items: center;
+}
+
+.hidden {
+  width: 0px;
+  overflow: hidden;
+  transform: rotateY(90deg);
+  transition: width transform 1s;
+
+}
