@@ -14,20 +14,27 @@
 
 @media (min-width: 300px) {
   .cards {
-    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 50px);
+    padding: .5em;
+    grid-auto-flow: column;
   }
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .cards {
     grid-template-columns: repeat(3, 100px);
   }
-}
+} */
 
 
-@media (min-width: 800px) {
+/* Figure out how to collapse empty grid rows */
+
+@media (min-width: 600px) {
   .cards {
     grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: row;
   }
 }
 
