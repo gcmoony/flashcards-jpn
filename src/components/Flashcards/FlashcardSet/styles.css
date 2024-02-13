@@ -7,9 +7,31 @@
   font-weight: 600;
 }
 
+.set-title span {
+  aspect-ratio: 1 / 1;
+  transition: transform .5s;
+}
+
+.selected {
+  transform: rotate(-90deg);
+}
+
 
 .title {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.set-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 200px;
+  background-color: rgb(63, 63, 63);
+  color: rgb(255, 255, 255);
+  padding: .5em;
+  
 }
 
 @media (min-width: 300px) {
