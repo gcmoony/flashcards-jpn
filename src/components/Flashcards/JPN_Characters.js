@@ -268,7 +268,7 @@ const data = [
         ]
       },
       {
-        charName: "no_vowels_n",
+        charName: "no vowel n",
         data: [
           { "id": 70, "character_en": "n", "character_jp": "ン" }
         ]
