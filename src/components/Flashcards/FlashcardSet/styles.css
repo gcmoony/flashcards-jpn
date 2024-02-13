@@ -1,20 +1,36 @@
 .cards {
   display: grid;
-  grid-template-columns: repeat(5, 100px);
+  
   padding: 1em;
   gap: 1em;
   font-size: 24px;
   font-weight: 600;
 }
 
-.three {
-  grid-template-areas: "1 . 2 . 3";
-}
-
-.two {
-  
-}
 
 .title {
   text-align: center;
 }
+
+@media (min-width: 300px) {
+  .cards {
+    grid-template-columns: repeat(2, 100px);
+  }
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(3, 100px);
+  }
+}
+
+
+@media (min-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(5, 100px);
+  }
+}
+
+
+
+
