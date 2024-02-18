@@ -1,3 +1,7 @@
+// Stressing the fact that this is boilerplate code I've copied from this document
+// https://github.com/samgermain/react-boiler-plate/blob/workbox/src/service-worker.js
+
+
 /* eslint-disable no-restricted-globals */
 
 // This service worker can be customized!
